@@ -6,13 +6,11 @@
 ///@param mov_speed
 ///@param rot_speed
 
-
 /// Input
 var key_left = argument0;
 var key_right = argument1;
 var key_up = argument2;
 var key_down = argument3;
-
 
 /// Movement
 var chr_speed = argument4;
@@ -45,10 +43,6 @@ else {
 		y += chr_vMov;
 	}
 }
-
-// Limit Position
-//x = clamp(x, camera_get_view_x(Sys_inGame.cam), camera_get_view_x(Sys_inGame.cam) + camera_get_view_width(Sys_inGame.cam));
-//y = clamp(y, camera_get_view_y(Sys_inGame.cam), camera_get_view_y(Sys_inGame.cam) + camera_get_view_height(Sys_inGame.cam));
 
 /// Rotate
 var pointDir = point_direction(x, y, mouse_x, mouse_y);

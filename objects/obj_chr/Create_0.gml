@@ -1,4 +1,3 @@
-
 image_speed = 0.01;
 chr_angle = 0;
 chr_xdir = 1;
