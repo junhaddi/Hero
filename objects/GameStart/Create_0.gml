@@ -1,2 +1,2 @@
-scr_InitGame();
+InitGame();
 room_goto_next();

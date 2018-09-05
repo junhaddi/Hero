@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_InitGame",
+    "name": "rm_start",
     "id": "7195b6dc-5113-4154-af29-3ad4abcfebb3",
     "creationCodeFile": "",
     "inheritCode": false,

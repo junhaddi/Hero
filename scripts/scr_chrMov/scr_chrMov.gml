@@ -19,8 +19,8 @@ var chr_vMov = key_up - key_down;
 
 //	Cross Speed
 if (chr_hMov != 0 && chr_vMov != 0 && 
-        !place_meeting(x - chr_speed, y, Block) && !place_meeting(x + chr_speed, y, Block) && !place_meeting(x, y - chr_speed, Block) && !place_meeting(x, y + chr_speed, Block))
-{
+	!place_meeting(x - chr_speed, y, Block) && !place_meeting(x + chr_speed, y, Block) &&
+	!place_meeting(x, y - chr_speed, Block) && !place_meeting(x, y + chr_speed, Block)) {
     chr_speed = (chr_speed / sqrt(2));
 }
 

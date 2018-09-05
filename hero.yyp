@@ -71,10 +71,18 @@
             }
         },
         {
+            "Key": "5367280d-2b4e-4c80-8f83-55b2fae84a27",
+            "Value": {
+                "id": "4a655794-94b0-4b62-9032-bc2d4ae4fff2",
+                "resourcePath": "views\\5367280d-2b4e-4c80-8f83-55b2fae84a27.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5644938b-1120-4343-979e-d30051fd3e5c",
             "Value": {
                 "id": "23fde00d-87c8-406c-8d2e-4f9db5823091",
-                "resourcePath": "scripts\\scr_InitGame\\scr_InitGame.yy",
+                "resourcePath": "scripts\\InitGame\\InitGame.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -111,6 +119,14 @@
             }
         },
         {
+            "Key": "68c688fd-cbf5-4faf-8425-f507edf69df1",
+            "Value": {
+                "id": "0920f715-071c-4133-8cae-9a95580f6a12",
+                "resourcePath": "sprites\\bg_desert\\bg_desert.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6f5ae3bc-28d9-49bc-9031-2a37e9cac0e0",
             "Value": {
                 "id": "3302be82-b740-4a1a-8c52-b618c5fee6a5",
@@ -122,8 +138,16 @@
             "Key": "7195b6dc-5113-4154-af29-3ad4abcfebb3",
             "Value": {
                 "id": "c46e6293-230f-42de-b0bc-ab2d25d5217c",
-                "resourcePath": "rooms\\rm_InitGame\\rm_InitGame.yy",
+                "resourcePath": "rooms\\rm_start\\rm_start.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "76d01e6b-9e93-4d57-8b4e-cc97822f198b",
+            "Value": {
+                "id": "7a380eb9-1024-42ff-8c37-c6ba9a352227",
+                "resourcePath": "views\\76d01e6b-9e93-4d57-8b4e-cc97822f198b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -162,7 +186,7 @@
             "Key": "8914152e-3895-44ef-9803-0108f8e5eded",
             "Value": {
                 "id": "3eebb586-95db-4598-a453-93d4efb54b11",
-                "resourcePath": "objects\\InitGame\\InitGame.yy",
+                "resourcePath": "objects\\GameStart\\GameStart.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -204,6 +228,14 @@
                 "id": "db44035d-6dc9-4831-86a3-1a621e2a7909",
                 "resourcePath": "views\\aa9fe7d1-37a8-4a65-aef4-8e82d44a5767.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b02e1294-afe1-40cc-a90b-03b74fa0953e",
+            "Value": {
+                "id": "16b5298b-f6cc-4d44-a823-011ab77b45fe",
+                "resourcePath": "scripts\\scr_camera\\scr_camera.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -281,7 +313,8 @@
     ],
     "script_order": [
         "7c69d11e-2d7a-417c-8f8c-28c1405255f0",
-        "5644938b-1120-4343-979e-d30051fd3e5c"
+        "5644938b-1120-4343-979e-d30051fd3e5c",
+        "b02e1294-afe1-40cc-a90b-03b74fa0953e"
     ],
     "tutorial": ""
 }
