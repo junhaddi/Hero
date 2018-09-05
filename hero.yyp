@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0cd9ed0f-fe30-41f8-ae3b-e32d47db0ff2",
+            "Value": {
+                "id": "8dbd617d-302e-40b8-b5c7-22c31acee7a2",
+                "resourcePath": "sprites\\ui_sword\\ui_sword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0e171822-d92e-4355-9046-d823c94ba8fa",
             "Value": {
                 "id": "c8393f8b-a7cc-45a9-ac99-e7601e16cf65",
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "6ecb3cb5-4871-4c1e-9bc1-c4d506722451",
+            "Value": {
+                "id": "8184f383-d023-4808-922b-7b07e443cd21",
+                "resourcePath": "views\\6ecb3cb5-4871-4c1e-9bc1-c4d506722451.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6f5ae3bc-28d9-49bc-9031-2a37e9cac0e0",
             "Value": {
                 "id": "3302be82-b740-4a1a-8c52-b618c5fee6a5",
@@ -263,6 +279,14 @@
             }
         },
         {
+            "Key": "9cf6fb2b-cf00-4481-a6ed-677704733e32",
+            "Value": {
+                "id": "8577966b-b677-4059-8862-d204d11cb04c",
+                "resourcePath": "sprites\\ui_spear\\ui_spear.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a1a9d97b-98b2-4ebc-86d3-654f09a7f207",
             "Value": {
                 "id": "4cb8bfb1-a810-4877-800f-483b7e567a76",
@@ -292,6 +316,14 @@
                 "id": "16b5298b-f6cc-4d44-a823-011ab77b45fe",
                 "resourcePath": "scripts\\scr_camera\\scr_camera.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b8b834d3-13ca-4a03-b33e-4b5c68146ed6",
+            "Value": {
+                "id": "f2fac63c-4626-4ea7-95a9-98206bfe773a",
+                "resourcePath": "sprites\\ui_axe\\ui_axe.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -351,6 +383,14 @@
             }
         },
         {
+            "Key": "dd5caf78-9a2b-454f-9fa0-0a4e36587664",
+            "Value": {
+                "id": "f3af5907-4acf-4d5c-9217-6e049783833b",
+                "resourcePath": "scripts\\scr_chrAttack\\scr_chrAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f38ecb24-e35f-4131-adee-2c612e322ed9",
             "Value": {
                 "id": "3a3c7e05-fbf4-450e-81a7-9f037416eb27",
@@ -387,6 +427,7 @@
         "5644938b-1120-4343-979e-d30051fd3e5c",
         "7c69d11e-2d7a-417c-8f8c-28c1405255f0",
         "7f65d3cc-f448-4cf4-a7c0-dc98ef618d85",
+        "dd5caf78-9a2b-454f-9fa0-0a4e36587664",
         "b02e1294-afe1-40cc-a90b-03b74fa0953e"
     ],
     "tutorial": ""
