@@ -17,10 +17,14 @@ var chr_speed = argument4;
 var chr_hMov = key_right - key_left;
 var chr_vMov = key_up - key_down;
 
+if (!chr_hMov && !chr_vMov) {
+	chr_isMov = true;
+}
+
 //	Cross Speed
-if (chr_hMov != 0 && chr_vMov != 0 && 
-	!place_meeting(x - chr_speed, y, Block) && !place_meeting(x + chr_speed, y, Block) &&
-	!place_meeting(x, y - chr_speed, Block) && !place_meeting(x, y + chr_speed, Block)) {
+if (chr_isMov && !place_meeting(x - chr_speed, y, Block) && !place_meeting(x + chr_speed, y, Block) &&
+	!place_meeting(x, y - chr_speed, Block) && !place_meeting(x, y + chr_speed, Block))
+{
     chr_speed = (chr_speed / sqrt(2));
 }
 
@@ -45,5 +49,13 @@ else {
 }
 
 /// Rotate
-var pointDir = point_direction(x, y, mouse_x, mouse_y);
-chr_angle = chr_angle % 360 + sin(degtorad(pointDir - chr_angle)) * argument5;
+var mouseDir = point_direction(x, y, mouse_x, mouse_y);
+chr_angle = chr_angle % 360 + sin(degtorad(mouseDir - chr_angle)) * argument5;
+
+//	Xdir
+if (abs(chr_angle) > 90 && abs(chr_angle) <= 270) {
+	chr_xdir = -1;
+}
+else {
+	chr_xdir = 1;
+}
