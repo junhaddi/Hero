@@ -2,6 +2,7 @@
 ///@param key_atk1 
 ///@param key_atk2
 
+//	TODO Attack
 if (chr_isWpDelay == false) {
 	///	Attack1
 	if (argument0) {
