@@ -22,6 +22,9 @@ cam_hview += (GAME_HEIGHT * cam_zoom - cam_hview) / argument0;
 x += (xTo - x) / argument1;
 y += (yTo - y) / argument1;
 
+//x = clamp(x, GAME_WIDTH / 2, room_width - GAME_WIDTH / 2);
+//y = clamp(y, GAME_HEIGHT / 2, room_height - GAME_HEIGHT / 2);
+
 /// Shaking View
 x += irandom_range(-cam_shake, cam_shake);
 y += irandom_range(-cam_shake, cam_shake);

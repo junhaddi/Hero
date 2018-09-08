@@ -54,9 +54,9 @@ else {
 
 /// Rotate
 var mouseDir = point_direction(x, y, mouse_x, mouse_y);
-chr_angle = chr_angle % 360 + sin(degtorad(mouseDir - chr_angle)) * argument5;
+chr_angle = chr_angle % 360 + sin(degtorad(mouseDir - chr_angle) * 0.98) * argument5;
 
-//	Xdir
+///	Xdir
 if (abs(chr_angle) > 90 && abs(chr_angle) <= 270) {
 	chr_xdir = -1;
 }
