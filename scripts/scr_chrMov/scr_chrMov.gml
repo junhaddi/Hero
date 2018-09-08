@@ -13,12 +13,16 @@ var key_up = argument2;
 var key_down = argument3;
 
 /// Movement
+//	Set move direction
 var chr_speed = argument4;
 var chr_hMov = key_right - key_left;
 var chr_vMov = key_up - key_down;
 
-if (!chr_hMov && !chr_vMov) {
+if (chr_hMov != 0 || chr_vMov != 0) {
 	chr_isMov = true;
+}
+else {
+	chr_isMov = false;
 }
 
 //	Cross Speed

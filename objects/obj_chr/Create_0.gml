@@ -1,4 +1,4 @@
-image_speed = 0.02;
+image_speed = 1;
 chr_isMov = false;
 chr_angle = 0;
 chr_xdir = 1;

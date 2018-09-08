@@ -1,2 +1,4 @@
 #macro GAME_WIDTH 1280
 #macro GAME_HEIGHT 720
+#macro CELL_WIDTH 32
+#macro CELL_HEIGHT 32

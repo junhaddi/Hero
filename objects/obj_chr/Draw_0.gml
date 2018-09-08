@@ -1,5 +1,5 @@
 ///	Draw Self
-draw_sprite_ext(spr_chr, image_index, x, y, chr_xscale * chr_xdir, chr_yscale, 0, c_white, image_alpha);
+draw_sprite_ext(spr_chr, (chr_isMov == 0) * image_index, x, y, chr_xscale * chr_xdir, chr_yscale, 0, c_white, image_alpha);
 
 ///	Draw LoadOut
 if (chr_xdir == 1) {

@@ -1,2 +1,2 @@
-/// @description Reset WeaponkDelay
+/// @description Reset weaponkDelay
 chr_isWpDelay = false;
